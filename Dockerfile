@@ -1,6 +1,6 @@
 # Originally forked from: git@github.com:gasi/docker-node-hello.git
 
-FROM docker.io/node:18.13.0
+FROM node:18-bookworm
 
 ARG email="anna@example.com"
 LABEL "maintainer"=$email
